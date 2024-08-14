@@ -3,11 +3,10 @@ import ProductCard from "./ProductCard";
 import useProducts from "../hooks/useProducts";
 
 export default function Products() {
-  const { 
-    productsQuery: {isLoading, error, data: products}
+  const {
+    productsQuery: { isLoading, error, data: products },
   } = useProducts();
-
-  return(
+  return (
     <>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
@@ -18,5 +17,5 @@ export default function Products() {
           ))}
       </ul>
     </>
-  )
+  );
 }

@@ -26,7 +26,7 @@ export default function CartItem({
       <div className="flex-1 flex justify-between ml-4">
         <div className="basis-3/5">
           <p className="text-lg">{title}</p>
-          <p className="text-xl text-gray-700">{option}</p>
+          <p className="text-xl font-bold text-brand">{option}</p>
           <p>₩{price}</p>
         </div>
         <div className="text-2xl flex items-center">

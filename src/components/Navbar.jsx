@@ -11,9 +11,8 @@ export default function Navbar() {
   const { user, login, logout } = useAuthContext();
   return (
     <header className="flex justify-between border-b border-gray-300 p-2">
-      <Link to="/" className="flex items-center text-3xl text-brand">
-        <FiShoppingBag />
-        <h1>Shoppy</h1>
+      <Link to="/" className="flex items-center text-3xl text-navy">
+        <h1>LONGINES</h1>
       </Link>
       <nav className="flex items-center gap-4 font-semibold">
         <Link to="/products">Products</Link>

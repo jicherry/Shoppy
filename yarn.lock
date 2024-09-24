@@ -1974,19 +1974,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@firebase/app@npm:^0.10.7":
-  version: 0.10.8
-  resolution: "@firebase/app@npm:0.10.8"
-  dependencies:
-    "@firebase/component": "npm:0.6.8"
-    "@firebase/logger": "npm:0.4.2"
-    "@firebase/util": "npm:1.9.7"
-    idb: "npm:7.1.1"
-    tslib: "npm:^2.1.0"
-  checksum: 10c0/55dddd7b06746d06ef4d83ea09597bbfdabc42532ae5189615793d9944f77eeb140e7d348ba1195ea7c3f0dc7eb1572baaed6a70baff1580c49b699beb3f06b3
-  languageName: node
-  linkType: hard
-
 "@firebase/auth-compat@npm:0.5.14":
   version: 0.5.14
   resolution: "@firebase/auth-compat@npm:0.5.14"
@@ -2036,16 +2023,6 @@ __metadata:
     "@react-native-async-storage/async-storage":
       optional: true
   checksum: 10c0/dab94919c8f695b6915b509b87bd36d97a739feb905c353779a2b7798745c391e4284d856e3682f10ee9f2953b0cacefcb682b36b02cc8857debb169abae8e61
-  languageName: node
-  linkType: hard
-
-"@firebase/component@npm:0.6.8":
-  version: 0.6.8
-  resolution: "@firebase/component@npm:0.6.8"
-  dependencies:
-    "@firebase/util": "npm:1.9.7"
-    tslib: "npm:^2.1.0"
-  checksum: 10c0/943aca2e59fe16b9f62e2fb45fc708c7497268ca6cfb19b916e3c88b74ce168a305a8b4480594d4e00cc23a7b5775bddd24cb8b34243df039a7799904b6fae49
   languageName: node
   linkType: hard
 
@@ -2385,15 +2362,6 @@ __metadata:
   dependencies:
     tslib: "npm:^2.1.0"
   checksum: 10c0/fc152a2cbdd06323f57f66c90cd388369e48e8910d589127f2ea76ca415c43c1c59b5b7b240307ae18f7f4c9cf0f97c71cb06e5ed8cba770b70958903ec52571
-  languageName: node
-  linkType: hard
-
-"@firebase/util@npm:1.9.7":
-  version: 1.9.7
-  resolution: "@firebase/util@npm:1.9.7"
-  dependencies:
-    tslib: "npm:^2.1.0"
-  checksum: 10c0/0cce6680d5f3f93eb941c2b8feb18b6a82ecb667e941614f23980a77828cb6a852a3dc5526a86d14e9a20d36c71921eba5db5d2b8fd8b331148b5e714624e51b
   languageName: node
   linkType: hard
 
@@ -3605,12 +3573,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=12.12.47, @types/node@npm:>=13.7.0":
+"@types/node@npm:*, @types/node@npm:>=13.7.0":
   version: 22.1.0
   resolution: "@types/node@npm:22.1.0"
   dependencies:
     undici-types: "npm:~6.13.0"
   checksum: 10c0/553dafcb842b889c036d43b390d464e8ffcf3ca455ddd5b1a1ef98396381eafbeb0c112a15cc6bf9662b72bc25fc45efc4b6f604760e1e84c410f1b7936c488b
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:>=12.12.47":
+  version: 22.6.1
+  resolution: "@types/node@npm:22.6.1"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10c0/79fdb14f268070eb21d25f3e81811b73c10dfcc65a638a6546fd97aa3e7dfe473f31a547fd21c43b8559a435b6ab26057066a47b5453bd1b1cdffe14430ac399
   languageName: node
   linkType: hard
 
@@ -7255,7 +7232,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"firebase@npm:^10.13.2":
+"firebase@npm:10.13.2":
   version: 10.13.2
   resolution: "firebase@npm:10.13.2"
   dependencies:
@@ -12725,14 +12702,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "shoppy@workspace:."
   dependencies:
-    "@firebase/app": "npm:^0.10.7"
+    "@firebase/app": "npm:0.10.11"
     "@tanstack/react-query": "npm:4.14.5"
     "@testing-library/jest-dom": "npm:^5.14.1"
     "@testing-library/react": "npm:^13.0.0"
     "@testing-library/user-event": "npm:^13.2.1"
     eslint: "npm:8.57.0"
     eslint-config-react-app: "npm:^7.0.1"
-    firebase: "npm:^10.13.2"
+    firebase: "npm:10.13.2"
     gh-pages: "npm:^6.1.1"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
@@ -13799,6 +13776,13 @@ __metadata:
   version: 6.13.0
   resolution: "undici-types@npm:6.13.0"
   checksum: 10c0/2de55181f569c77a4f08063f8bf2722fcbb6ea312a26a9e927bd1f5ea5cf3a281c5ddf23155061db083e0a25838f54813543ff13b0ac34d230d5c1205ead66c1
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.19.2":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
   languageName: node
   linkType: hard
 

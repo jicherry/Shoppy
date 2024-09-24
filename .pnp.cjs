@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@firebase/app", "npm:0.10.8"],\
+          ["@firebase/app", "npm:0.10.11"],\
           ["@tanstack/react-query", "virtual:16e654a9d365e02f7e28ac465e17fac93840604085351a9f6343f69b3a793d34618b538eea2150d2f1f567e908e7676db665faf19a175c38c1abccd63a770793#npm:4.14.5"],\
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:16e654a9d365e02f7e28ac465e17fac93840604085351a9f6343f69b3a793d34618b538eea2150d2f1f567e908e7676db665faf19a175c38c1abccd63a770793#npm:13.4.0"],\
@@ -3663,18 +3663,6 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.6.3"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:0.10.8", {\
-        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@firebase-app-npm-0.10.8-ca84dfa4c9-10c0.zip/node_modules/@firebase/app/",\
-        "packageDependencies": [\
-          ["@firebase/app", "npm:0.10.8"],\
-          ["@firebase/component", "npm:0.6.8"],\
-          ["@firebase/logger", "npm:0.4.2"],\
-          ["@firebase/util", "npm:1.9.7"],\
-          ["idb", "npm:7.1.1"],\
-          ["tslib", "npm:2.6.3"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["@firebase/app-check", [\
@@ -3906,15 +3894,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@firebase/component", [\
-      ["npm:0.6.8", {\
-        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@firebase-component-npm-0.6.8-19e4333201-10c0.zip/node_modules/@firebase/component/",\
-        "packageDependencies": [\
-          ["@firebase/component", "npm:0.6.8"],\
-          ["@firebase/util", "npm:1.9.7"],\
-          ["tslib", "npm:2.6.3"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.6.9", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@firebase-component-npm-0.6.9-74639e6ec4-10c0.zip/node_modules/@firebase/component/",\
         "packageDependencies": [\
@@ -4608,14 +4587,6 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.6.3"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:1.9.7", {\
-        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@firebase-util-npm-1.9.7-fb9827155b-10c0.zip/node_modules/@firebase/util/",\
-        "packageDependencies": [\
-          ["@firebase/util", "npm:1.9.7"],\
-          ["tslib", "npm:2.6.3"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["@firebase/vertexai-preview", [\
@@ -4664,7 +4635,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@grpc/grpc-js", "npm:1.9.15"],\
           ["@grpc/proto-loader", "npm:0.7.13"],\
-          ["@types/node", "npm:22.1.0"]\
+          ["@types/node", "npm:22.6.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6094,6 +6065,14 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/node", "npm:22.1.0"],\
           ["undici-types", "npm:6.13.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:22.6.1", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@types-node-npm-22.6.1-70e2c64184-10c0.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:22.6.1"],\
+          ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17620,7 +17599,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["shoppy", "workspace:."],\
-          ["@firebase/app", "npm:0.10.8"],\
+          ["@firebase/app", "npm:0.10.11"],\
           ["@tanstack/react-query", "virtual:16e654a9d365e02f7e28ac465e17fac93840604085351a9f6343f69b3a793d34618b538eea2150d2f1f567e908e7676db665faf19a175c38c1abccd63a770793#npm:4.14.5"],\
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:16e654a9d365e02f7e28ac465e17fac93840604085351a9f6343f69b3a793d34618b538eea2150d2f1f567e908e7676db665faf19a175c38c1abccd63a770793#npm:13.4.0"],\
@@ -18866,6 +18845,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/undici-types-npm-6.13.0-3ce6ceead9-10c0.zip/node_modules/undici-types/",\
         "packageDependencies": [\
           ["undici-types", "npm:6.13.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:6.19.8", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/undici-types-npm-6.19.8-9f12285b7a-10c0.zip/node_modules/undici-types/",\
+        "packageDependencies": [\
+          ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
       }]\
